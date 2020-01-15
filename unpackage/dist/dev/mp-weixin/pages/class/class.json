@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "二手乐器交易平台",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "mi-skeleton": "/components/common/skeleton/mi-skeleton",
+    "common-list": "/components/common/common-list"
+  }
+}

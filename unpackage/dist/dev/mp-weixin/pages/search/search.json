@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "搜索",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "card": "/components/common/card",
+    "color-tag": "/components/search/color-tag",
+    "uni-list-item": "/components/uni-ui/uni-list-item/uni-list-item"
+  }
+}
