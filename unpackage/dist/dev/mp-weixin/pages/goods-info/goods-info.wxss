@@ -1,0 +1,12 @@
+
+.wants-views {
+	font-size: 20rpx;
+}
+.button-contact {
+	margin: 16rpx 0;
+	border-radius: 36rpx;
+	padding: 0px 30rpx;
+	background-color: #ff3815;
+	color: white;
+}
+

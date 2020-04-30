@@ -7,7 +7,8 @@
 	-webkit-box-align: start;
 	-webkit-align-items: flex-start;
 	        align-items: flex-start;
-	margin-left: 10rpx;
+	/* margin-left: 10upx; */
+	background-color: whitesmoke;
 }
 .container .column {
 	-webkit-box-flex: 1;
@@ -16,5 +17,12 @@
 }
 .container .column .item image {
 	width: 100%;
+}
+.item {
+	background-color: white;
+	margin-bottom: 20rpx;
+}
+.item-left {
+	margin-right: 20rpx;
 }
 

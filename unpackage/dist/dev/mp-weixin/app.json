@@ -4,7 +4,8 @@
     "pages/class/class",
     "pages/my/my",
     "pages/search/search",
-    "pages/search-list/search-list"
+    "pages/search-list/search-list",
+    "pages/goods-info/goods-info"
   ],
   "subPackages": [],
   "window": {
@@ -47,5 +48,5 @@
   "usingComponents": {
     "divider": "/components/common/divider"
   },
-  "sitemapLocation": "sitemap17.json"
+  "sitemapLocation": "sitemap34.json"
 }

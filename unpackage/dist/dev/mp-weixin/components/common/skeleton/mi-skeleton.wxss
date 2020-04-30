@@ -1,5 +1,5 @@
 
-.skeleton.data-v-95782034 {
+.skeleton.data-v-4d3d16ef {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -8,45 +8,45 @@
   --row-height: 16px;
   --row-margin-top: 16px;
 }
-.skeleton-imgTitle.data-v-95782034 {
+.skeleton-imgTitle.data-v-4d3d16ef {
   -webkit-flex-wrap: wrap;
           flex-wrap: wrap;
 	  background: var(--bg-color);
 		margin: 10px auto;
 }
-.skeleton-avatar.data-v-95782034 {
+.skeleton-avatar.data-v-4d3d16ef {
   -webkit-flex-shrink: 0;
           flex-shrink: 0;
   background: var(--bg-color);
   margin-right: 8px;
 }
-.skeleton-avatar.round.data-v-95782034 {
+.skeleton-avatar.round.data-v-4d3d16ef {
   border-radius: 50%;
 }
-.skeleton-content.data-v-95782034 {
+.skeleton-content.data-v-4d3d16ef {
   width: 100%;
 }
-.skeleton-title.data-v-95782034 {
+.skeleton-title.data-v-4d3d16ef {
   background-color: var(--bg-color);
   height: var(--row-height);
 }
-.skeleton-title + .skeleton-rows.data-v-95782034 {
+.skeleton-title + .skeleton-rows.data-v-4d3d16ef {
   margin-top: var(--row-margin-top);
 }
-.skeleton-rows.data-v-95782034 {
+.skeleton-rows.data-v-4d3d16ef {
 }
-.skeleton-row-item.data-v-95782034 {
+.skeleton-row-item.data-v-4d3d16ef {
   background-color: var(--bg-color);
   height: var(--row-height);
 }
-.skeleton-row-item.data-v-95782034:not(:first-child) {
+.skeleton-row-item.data-v-4d3d16ef:not(:first-child) {
   margin-top: var(--row-margin-top);
 }
-.skeleton.animate.data-v-95782034 {
-  -webkit-animation: skeleton-blink-data-v-95782034 1.2s ease-in-out infinite;
-          animation: skeleton-blink-data-v-95782034 1.2s ease-in-out infinite;
+.skeleton.animate.data-v-4d3d16ef {
+  -webkit-animation: skeleton-blink-data-v-4d3d16ef 1.2s ease-in-out infinite;
+          animation: skeleton-blink-data-v-4d3d16ef 1.2s ease-in-out infinite;
 }
-@-webkit-keyframes skeleton-blink-data-v-95782034 {
+@-webkit-keyframes skeleton-blink-data-v-4d3d16ef {
 0% {
     opacity: 1;
 }
@@ -57,7 +57,7 @@
     opacity: 1;
 }
 }
-@keyframes skeleton-blink-data-v-95782034 {
+@keyframes skeleton-blink-data-v-4d3d16ef {
 0% {
     opacity: 1;
 }

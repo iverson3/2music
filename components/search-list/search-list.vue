@@ -29,7 +29,7 @@
 		methods: {
 			openGoodsDetail: function(id) {
 				uni.navigateTo({
-					url: "/pages/detail/detail?goods_id=" + id
+					url: "/pages/goods-info/goods-info?id=" + id
 				})
 			}
 		}

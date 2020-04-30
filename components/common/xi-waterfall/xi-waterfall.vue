@@ -2,8 +2,8 @@
 	<view class="container">
 		<!-- 第一列 -->
 		<view class="column" id="columnFirst">
-			<view class="item" v-for="(item, index) in columnFirst" :key="index">
-				<view style="width: 340rpx;" @tap="$emit('click')">
+			<view class="item item-left" v-for="(item, index) in columnFirst" :key="index">
+				<view style="width: 356upx;" @tap="$emit('click', item)">
 					<image :src="item.cover" mode="widthFix" lazy-load></image>
 					<view class="p-2 pt-1">
 						<view class="font-md line-h-sm">{{ item.title }}</view>
@@ -20,7 +20,7 @@
 		<!-- 第二列 -->
 		<view class="column" id="columnSecond">
 			<view class="item" v-for="(item, index) in columnSecond" :key="index">
-				<view style="width: 340rpx;" @tap="$emit('click')">
+				<view style="width: 364upx;" @tap="$emit('click', item)">
 					<image :src="item.cover" mode="widthFix" lazy-load></image>
 					<view class="p-2 pt-1">
 						<view class="font-md line-h-sm">{{ item.title }}</view>
@@ -148,12 +148,20 @@ export default {
 	width: 100%;
 	display: flex;
 	align-items: flex-start;
-	margin-left: 10rpx;
+	/* margin-left: 10upx; */
+	background-color: whitesmoke;
 }
 .container .column {
 	flex: 1;
 }
 .container .column .item image {
 	width: 100%;
+}
+.item {
+	background-color: white;
+	margin-bottom: 20upx;
+}
+.item-left {
+	margin-right: 20upx;
 }
 </style>

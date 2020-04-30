@@ -8,14 +8,14 @@
 		</view>
 		<view :style="'height: 90rpx;background: white;'"></view>
 		
-		<divider></divider>
+	<!-- 	<divider></divider>
 		<view class="adv-container w-100">
 			<three-adv :resdata="advData"></three-adv>
-		</view>
+		</view> -->
 		<divider></divider>
 		
 		<view class="goods-list w-100">
-			<waterfall :list="goodsList"></waterfall>
+			<waterfall :list="goodsList" @click="toInfo($event)"></waterfall>
 		</view>
 		
 		
@@ -250,6 +250,10 @@
 		methods: {
 			toSearch: function() {
 				uni.navigateTo({url: "/pages/search/search"})
+			},
+			toInfo: function(item) {
+				console.log(item)
+				uni.navigateTo({url: '/pages/goods-info/goods-info?id=' + item.id})
 			}
 		}
 	}

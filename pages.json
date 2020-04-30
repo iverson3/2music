@@ -18,7 +18,7 @@
         ,{
             "path" : "pages/my/my",
             "style": {
-            	"navigationBarTitleText": "二手乐器交易平台",
+				"navigationStyle": "custom",
 				"enablePullDownRefresh": false
             }
         }
@@ -37,6 +37,12 @@
 				// "navigationStyle":"custom"
 		    }
 		}
+        ,{
+            "path" : "pages/goods-info/goods-info",
+            "style" : {
+				"navigationBarTitleText":"乐器详情"
+			}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "乐器详情",
+  "usingComponents": {
+    "price": "/components/common/price",
+    "common-popup": "/components/common/common-popup",
+    "common-list-full": "/components/common/common-list-full"
+  }
+}

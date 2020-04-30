@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "二手乐器交易平台",
+  "navigationStyle": "custom",
   "enablePullDownRefresh": false,
   "usingComponents": {}
 }
